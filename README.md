@@ -1,6 +1,6 @@
 # Food-11 Image Classification with ResNet
 
-This project implements a deep learning solution for classifying food images into 11 categories using the Food-11 dataset. It features a custom **LightResNet-18** architecture designed for efficiency and high accuracy, along with a standard VGG16 implementation for comparison.
+This project implements a deep learning solution for classifying food images into 11 categories using the Food-11 dataset. It features a custom **LightResNet-18** architecture designed for efficiency and high accuracy, along with a standard VGG16 implementation for comparison.You can dowload dataset by https://www.kaggle.com/datasets/vermaavi/food11.
 
 ## Project Overview
 
@@ -33,13 +33,10 @@ Recommended file structure for the project:
 
 ```
 project_root/
-├── dataset/
-│   ├── training/       # Training images (Label_Id.jpg)
-│   ├── validation/     # Validation images
-│   └── evaluation/     # Test images
+├──dataset/             # Dataset
 ├── runs/               # TensorBoard logs
 ├── main.py             # Main training and prediction script
-├── Lab2_Guide.ipynb    # Jupyter Notebook with step-by-step guide
+├── Lab2_Guide.md       # markdown NOTEBOOK with step-by-step guide
 ├── README.md           # Project documentation
 ├── requirements.txt    # List of dependencies
 ├── custom_resnet_best.pth  # Saved model weights (generated after training)
